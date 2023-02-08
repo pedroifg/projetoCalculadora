@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(whitesmoke, black);
+}
+
+
+.calculadora {
+    border: 3px solid black;    
+    width: 300px;
+    padding: 1px;
+    margin: auto;    
+    background-color: gray;
+    padding: 6px 6px 6px 6px;
+}
+
+#campo{
+    display: flex;
+    width: 100%; 
+    height: 70px;
+    background-color: white;
+    margin-bottom: 5px;
+    overflow: hidden;   
+    font-size: 50px;  
+}
+
+.botao{
+    transition: all 200ms ease-in-out;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.botoesCalculadora {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3px;        
+}
+
+.calculadora button{
+    padding: 5px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
